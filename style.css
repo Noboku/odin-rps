@@ -1,0 +1,9 @@
+body {
+  background-color: brown;
+  color: aquamarine;
+  min-height: 80vh;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
