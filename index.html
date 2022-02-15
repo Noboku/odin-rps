@@ -6,9 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors!</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1>Rock Paper Scissors</h1>
+    <div class="rps">
+      <button id="btn" class="rock hover">
+        <img class="rockImg" src="/img/rock.jpg" alt="Rock" />
+      </button>
+      <button id="btn2" class="paper hover">
+        <img class="paperImg" src="/img/paper.jpg" alt="Paper" />
+      </button>
+      <button id="btn3" class="scissor hover">
+        <img class="scissorImg" src="/img/scissor.jpg" alt="Scissor" />
+      </button>
+    </div>
+    <div class="lastContent">
+      <p class="statement"></p>
+      <div class="scores">
+        <h2>Your score: <span class="player">0</span></h2>
+        <h2>Computer's score: <span class="pc">0</span></h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

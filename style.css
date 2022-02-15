@@ -1,9 +1,65 @@
 body {
-  background-color: brown;
-  color: aquamarine;
-  min-height: 80vh;
-  max-height: 100vh;
+  min-height: 100vh;
+  font-family: "Lemonada", cursive;
+  background-color: rgb(243, 241, 241);
+  color: rgb(109, 103, 103);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+/* h1 {
+  margin-bottom: 100px;
+} */
+
+.rps {
+  display: flex;
+  gap: 75px;
+  /* margin-bottom: 100px; */
+}
+
+.rps img {
+  height: 200px;
+}
+
+.rps .rockImg {
+  height: 150px;
+  width: 200px;
+}
+
+.rps .paperImg {
+  width: 105px;
+  padding: 40px;
+}
+
+.rps .scissorImg {
+  width: 180px;
+}
+
+.rps button {
+  border: none;
+  /* border-color: rgb(243, 241, 241);
+  border-radius: 12px; */
+  transition: all 0.07s;
+}
+
+.rps .hover:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  border: 2px solid grey;
+}
+
+.scores {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.statement {
+  text-align: center;
+}
+
+.lastContent {
+  margin-bottom: 100px;
 }
